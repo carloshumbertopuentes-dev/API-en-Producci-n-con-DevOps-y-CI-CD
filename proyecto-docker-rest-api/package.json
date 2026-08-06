@@ -1,0 +1,17 @@
+{
+  "name": "api-express-postgresql-devops",
+  "version": "1.0.0",
+  "description": "API REST con Express, PostgreSQL, Prisma, CI/CD y Monitoreo",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node --watch index.js",
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "@prisma/client": "^5.10.0",
+    "express": "^4.18.2"
+  },
+  "devDependencies": {
+    "prisma": "^5.10.0"
+  }
+}
